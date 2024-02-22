@@ -21,7 +21,8 @@ access_token = None
 stream_id = None
 
 # Channel to monitor
-CHANNEL_NAME = 'clix'
+CHANNEL_NAME = 'kaicenat'
+CHAT_THRESHOLD_VALUE = 2
 
 # Clip parameters
 DURATION = '30'  # Duration of the clip in seconds
@@ -39,7 +40,7 @@ TWITCH_IRC_PORT = 6667
 
 # Define your Twitch bot's credentials
 BOT_USERNAME = 'xan'
-OAUTH_TOKEN = 'oauth:9zpl34wccjbp6a006whbbb33awcy8k'
+OAUTH_TOKEN = os.environ['OAUTH_TOKEN']
 
 
 # Flask server to automate authorization code access
@@ -97,8 +98,8 @@ def monitor_chat():
         if elapsed_time >= 10:
             print(str(message_count) + "...", end="")
 
-            if 0 < prev_count * 3 < message_count:
-                print("Spike detected! Clipping stream...")
+            if 0 < prev_count * CHAT_THRESHOLD_VALUE < message_count:
+                print("Spike detected! Waiting 10 seconds to begin clipping stream...")
                 clip_stream()
 
             prev_count = message_count
@@ -146,10 +147,10 @@ def get_stream_id():
     response = requests.get(f'{TWITCH_API_BASE_URL}streams?user_login={CHANNEL_NAME}', headers=headers)
     data = response.json()
 
-    # print(data)
+    print(data)
 
     try:
-        stream_id = data['data'][0]['user_id']
+        user_id = data['data'][0]['user_id']
 
     except IndexError:
         raise Exception(CHANNEL_NAME + " appears to be offline, check the stream for activity, or try again later")
@@ -157,9 +158,9 @@ def get_stream_id():
 
     #print(stream_id)
 
-    print("stream_id: " + stream_id)
+    print("stream_id: " + user_id)
 
-    return stream_id
+    return user_id
 
 
 def clip_stream():

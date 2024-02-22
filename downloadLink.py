@@ -5,6 +5,8 @@ import requests
 import time
 import os
 from datetime import datetime
+from uploadVideo import uploadVid
+from videoProcessing import processVid
 
 CLIPS_DIRECTORY = 'clips'
 
@@ -66,6 +68,10 @@ def extract_clip_video_url(clip_url, channel_name):
                 for chunk in video_response.iter_content(chunk_size=1024):
                     f.write(chunk)
             print(f"Video downloaded successfully as {filename}")
+
+            # pass video path to uploadVid function
+            processVid(filename)
+
         else:
             print("Failed to download video: HTTP status code", video_response.status_code)
     except Exception as e:
