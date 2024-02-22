@@ -1,0 +1,53 @@
+Terms of Service
+
+These Terms of Service ("Terms") govern your access to and use of the TwitchTokBot application (the "Service"), provided by alecmack ("we" or "us"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use the Service.
+
+1. Use of the Service
+
+1.1 Eligibility: By using the Service, you affirm that you are at least 18 years of age or have reached the age of majority in your jurisdiction.
+
+1.2 License: Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, and revocable license to use the Service for your personal, non-commercial use.
+
+1.3 Account: You may be required to create an account to access certain features of the Service. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
+
+2. User Content
+
+2.1 Responsibility: You are solely responsible for any content, including but not limited to text, images, and videos ("User Content"), that you submit, upload, or display on or through the Service.
+
+2.2 License Grant: By submitting User Content, you grant us a worldwide, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, modify, adapt, publicly perform, and publicly display such User Content in connection with the Service.
+
+3. Prohibited Conduct
+
+3.1 You agree not to engage in any of the following prohibited activities:
+
+Violating any applicable laws or regulations;
+Impersonating any person or entity or falsely stating or otherwise misrepresenting your affiliation with a person or entity;
+Interfering with or disrupting the integrity or performance of the Service or the data contained therein;
+Accessing or attempting to access the Service by any means other than the interface provided by us;
+Harassing, intimidating, or threatening any other users of the Service;
+Uploading or transmitting viruses or any other malicious code that may damage, interfere with, or disrupt the Service.
+4. Intellectual Property Rights
+
+4.1 All intellectual property rights in and to the Service, including but not limited to copyrights, trademarks, and trade secrets, are owned by us or our licensors.
+
+4.2 You may not use, copy, reproduce, modify, adapt, translate, distribute, reverse engineer, decompile, or disassemble the Service or any portion thereof without our prior written consent.
+
+5. Disclaimer of Warranties
+
+5.1 THE SERVICE IS PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+5.2 WE MAKE NO WARRANTY THAT (I) THE SERVICE WILL MEET YOUR REQUIREMENTS, (II) THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, OR (III) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SERVICE WILL BE ACCURATE OR RELIABLE.
+
+6. Limitation of Liability
+
+6.1 TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR IN CONNECTION WITH YOUR ACCESS TO OR USE OF THE SERVICE.
+
+7. Governing Law and Dispute Resolution
+
+7.1 These Terms shall be governed by and construed in accordance with the laws of the State Courts of New Jersey, without regard to its conflict of law principles.
+
+7.2 Any dispute arising out of or relating to these Terms or your use of the Service shall be resolved exclusively in the state or federal courts located in the State Courts of New Jersey.
+
+8. Changes to the Terms
+
+8.1 We reserve the right to modify or revise these Terms at any time. We will notify you of any changes by posting the revised Terms on the Service. Your continued use of the Service following the posting of the revised Terms constitutes your acceptance of such changes.
